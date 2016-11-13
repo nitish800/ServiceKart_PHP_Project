@@ -1,0 +1,48 @@
+pattern="^\d{10}$" required title="Enter a valid 10 digit phone no" x-moz-errormessage="Enter Your Phone No"
+
+
+
+pattern="[A-Za-z]+" required title="Enter a country name" x-moz-errormessage="Enter Your Country Name"
+
+
+
+pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required title="Enter a valid e-mail address" x-moz-errormessage="Enter a Valid e-mail Address
+
+
+
+pattern="[A-Za-z]+" required title="Enter your last name"  x-moz-errormessage="Enter Your last Name"
+
+
+
+pattern="[0-9]+" required title="Enter Your Age" x-moz-errormessage="Enter Your Age"
+
+
+
+pattern="[a-zA-Z][a-zA-Z0-9-_\.]{5,12}$" required title="Enter a Address" x-moz-errormessage="Enter a address"
+
+
+
+pattern="^\d{6}$" required title="Enter a pincode" x-moz-errormessage="Enter a Pincode"
+
+
+
+
+
+
+
+
+
+
+
+input:valid
+{
+ border:solid green 1px;
+}
+input:invalid 
+{
+    border:1px solid red; 
+}
+input:required 
+{
+    border:1px solid #00a2d1; 
+}
